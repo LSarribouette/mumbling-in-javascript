@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>home-made morpion</title>
+</head>
+<body onload="Initialisation();">
+<div id="titre">Morpion</div>
+<div class="jeu">
+    <table id="center">
+        <tbody>
+        <tr>
+            <td class="carre" id="a1" onclick="jouer('a1');"></td>
+            <td class="carre" id="a2" onclick="jouer('a2');"></td>
+            <td class="carre" id="a3" onclick="jouer('a3');"></td>
+        </tr>
+        <tr>
+            <td class="carre" id="b1" onclick="jouer('b1');"></td>
+            <td class="carre" id="b2" onclick="jouer('b2');"></td>
+            <td class="carre" id="b3" onclick="jouer('b3');"></td>
+        </tr>
+        <tr>
+            <td class="carre" id="c1" onclick="jouer('c1');"></td>
+            <td class="carre" id="c2" onclick="jouer('c2');"></td>
+            <td class="carre" id="c3" onclick="jouer('c3');"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="rejouer">
+    <button type="button" class="bouton" onclick="Initialisation();">Rejouer</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

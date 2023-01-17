@@ -1,0 +1,101 @@
+table {
+    border-collapse: collapse;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+}
+
+#titre {
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    padding-top: 10px;
+    color: black;
+}
+
+#a1 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+}
+
+#a2 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    background-position: center; /* ligne à supprimer */
+}
+
+#a3 {
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    background-position: right; /* ligne à supprimer */
+}
+
+#b1 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#b2 {
+    border: solid 10px black;
+
+}
+
+#b3 {
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#c1 {
+    border-right: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#c2 {
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+
+}
+
+#c3 {
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+}
+
+.jeu {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rejouer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.bouton {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    background-color: #C3C2C2;
+    border-radius: 20px;
+    border: none;
+}
